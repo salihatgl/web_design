@@ -32,32 +32,49 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm  justify-content-center  mb-5" style="border-bottom:2px solid darkgrey;">
-        <ul class="navbar-nav">
+<div class="b-example-divider"></div>
+
+<div class="container-fluid" style="background-color:black;">
+    <header
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                <use xlink:href="#bootstrap" />
+            </svg>
+        </a>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li class="nav-item">
-                <a class="nav-link active  me-2 active " style="color:darkgrey; font-size:large; " href="http://127.0.0.1:8000/anasayfa">Anasayfa</a>
+                <a class="nav-link active  me-2 active " style="color:white; font-size:large; " href="">Anasayfa</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link me-2 " style="color:darkgrey; font-size:large;" href="http://127.0.0.1:8000/urunler">Ürünler</a>
+                <a class="nav-link me-2 " style="color:white; font-size:large;"
+                    href="http://127.0.0.1:8000/urunler">Ürünler</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link me-2 " style="color:darkgrey; font-size:large;" href="http://127.0.0.1:8000/contact">Bize Ulaşın</a>
+                <a class="nav-link me-2 " style="color:white; font-size:large;"
+                    href="http://127.0.0.1:8000/contact">Bize Ulaşın</a>
             </li>
         </ul>
-    </nav>
-
+        <div class="col-md-3 text-end">
+            <li class="fa fa-shopping-basket" style="font-size:24px;margin-right:10px;color:white;"></li>
+            <li class="fa fa-user" style="font-size:24px; margin-right:10px;color:white;"></li>
+            <li class="fa fa-search" style="font-size:24px; margin-right:10px;color:white;"></li>
+        </div>
+    </header>
+</div>
     <div class="container">
         <div class="row mt-5" style="margin-left: 50px;">
             <div class="col" style="margin-bottom:5%;">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://as1.ftcdn.net/v2/jpg/02/77/91/42/1000_F_277914256_fYgV5m037kdGQwYgC7ksBLidFKAzvWaR.jpg"
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-camila-el-ve-omuz-cantasi-932.jpg?v=1692609773&width=800"
                         class="card-img-top" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">OMUZ ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -65,14 +82,14 @@
             </div>
             <div class="col" style="margin-bottom:5%; ">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://as1.ftcdn.net/v2/jpg/02/77/91/42/1000_F_277914253_37LH5TcML1LlSx6wE0lTV3o6SyyEypls.jpg"
-                        class="card-img-top" height="195.4" alt="...">
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-ornella-el-ve-omuz-cantasi-1376.jpg?v=1692301784&width=800"
+                        class="card-img-top" height="286px" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">OMUZ ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -80,14 +97,14 @@
             </div>
             <div class="col" style="margin-bottom:5%;">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://as2.ftcdn.net/v2/jpg/02/02/39/01/1000_F_202390198_4DVXeTHPXzgvhm2j4Mbcv3bgMzra2Ynw.jpg"
-                        class="card-img-top" height="195.4" alt="...">
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-nessa-el-ve-omuz-cantasi-779.jpg?v=1690215937&width=800"
+                        class="card-img-top" height="286px" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">OMUZ ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -95,14 +112,14 @@
             </div>
             <div class="col " style="margin-bottom:5%; ">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://as1.ftcdn.net/v2/jpg/03/21/13/52/1000_F_321135276_l8nYd56p1MIkFEjzHQlaqcRoUiZlKRsw.jpg"
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-enola-el-ve-omuz-cantasi-3959.jpg?v=1692612856&width=800"
                         class="card-img-top" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">OMUZ ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -110,14 +127,14 @@
             </div>
             <div class="col " style="margin-bottom:5%; ">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://as2.ftcdn.net/v2/jpg/03/21/13/51/1000_F_321135124_NSz8vQ1UFhjf4zL0xbDIj47aeT0Y7wyK.jpg"
-                        class="card-img-top" height="195.4" alt="...">
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-evola-deri-omuz-cantasi-3203.jpg?v=1690213280&width=800"
+                        class="card-img-top" height="286" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">OMUZ ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -125,14 +142,14 @@
             </div>
             <div class="col " style="margin-bottom:5%; ">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://t4.ftcdn.net/jpg/04/28/12/51/240_F_428125167_l6MKAo3nhz6LsIYAN3qw4IGBg72FxgmZ.jpg"
-                        class="card-img-top" height="195.4" alt="...">
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-vica-el-ve-omuz-cantasi-749.jpg?v=1692204414&width=800"
+                        class="card-img-top" height="286" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">SIRT ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -140,14 +157,14 @@
             </div>
             <div class="col " style="margin-bottom:5%; ">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://as2.ftcdn.net/v2/jpg/02/02/39/09/1000_F_202390969_UupkmPr6AJScWGvulXjrpQXvLpdkll06.jpg"
-                        class="card-img-top" height="195.4" alt="...">
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-misty-sirt-cantasi-5773.jpg?v=1691838320&width=800"
+                        class="card-img-top" height="286" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">OMUZ ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
 
@@ -156,14 +173,14 @@
             </div>
             <div class="col " style="margin-bottom:5%; ">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://t3.ftcdn.net/jpg/04/12/20/32/240_F_412203255_vrQuaYBUIJsAqt3T0jtnnqVUe70sz2Zl.jpg"
-                        class="card-img-top" height="195.4" alt="...">
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-evrak-cantasi-523.jpg?v=1690215727&width=800"
+                        class="card-img-top" height="286" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">OMUZ ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -171,14 +188,14 @@
             </div>
             <div class="col " style="margin-bottom:5%; ">
                 <div class="card card1" style="width: 18rem;">
-                    <img src="https://t4.ftcdn.net/jpg/03/61/45/81/240_F_361458185_vg5CaRqwFQ3ldnvjW3PZWd1bA7dSwW1i.jpg"
-                        class="card-img-top" height="195.4" alt="...">
+                    <img src="https://matmazelcanta.com/cdn/shop/files/matmazel-gian-el-ve-omuz-cantasi-1958.jpg?v=1687253383&width=800"
+                        class="card-img-top" height="286" alt="...">
                     <div class="card-body">
                         <h6 class="card-title text-center">EL ÇANTASI</h6>
                         <hr width="20px" style="background-color: black;">
                         <p class="card-text text-center">1,300,00 ₺</p>
                         <a href="http://127.0.0.1:8000/urunler/urun_detay" class="btn btn-dark "
-                            style="margin-left:25%; background-color:darkgray;border:2px solid darkgray;">Ürünü
+                            style="margin-left:25%; background-color:black;border:2px solid darkgray;">Ürünü
                             İncele</a>
 
                     </div>
@@ -208,24 +225,24 @@
     </div>
     </div>
     <div class="container-fluid" style="margin-top: 100px;">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top"
-                style="background-color:gray;">
-                <div class="col-md-4 d-flex align-items-center">
-                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                        <svg class="bi" width="30" height="24">
-                            <use xlink:href="#bootstrap" />
-                        </svg>
-                    </a>
-                    <span class="mb-3 mb-md-0 text-dark">&copy; 2022 Company, Inc</span>
-                </div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top"
+            style="background-color:black;">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-white">&copy; 2022 Company, Inc</span>
+            </div>
 
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="fa fa-instagram" style="font-size:24px; margin-right:10px"></li>
-                    <li class="fa fa-facebook-f" style="font-size:24px;margin-right:10px"></li>
-                    <li class="fa fa-twitter" style="font-size:24px;margin-right:10px"></li>
-                </ul>
-            </footer>
-        </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="fa fa-instagram" style="font-size:24px; margin-right:10px; color:white"></li>
+                <li class="fa fa-facebook-f" style="font-size:24px;margin-right:10px;color:darkblue"></li>
+                <li class="fa fa-twitter" style="font-size:24px;margin-right:10px; color:cyan"></li>
+            </ul>
+        </footer>
+    </div>
 
 </body>
 
